@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 400px;
+  border-radius: 5px;
+  margin: 50px auto;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  padding: 16px 10px;
+  width: 100%;
+  border: none;
+  font-size: 2em;
+  background-color: #333;
+  color: #eee;
+  text-align: right;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td {
+  font-size: 1.5em;
+  padding: 0.75em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.table td:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+.table .operator {
+  background-color: rgb(70, 70, 70);
+  color: #eee;
+}
+
+.table .operator:hover {
+  background-color: #222;
+}
+
+.table .equalBtn {
+  background-color: rgb(255, 160, 51);
+}
